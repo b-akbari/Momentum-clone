@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.background {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    background-blend-mode: luminosity;
+}
+
+div {
+    justify-content: center;
+}
+
+
+.text{
+    z-index: 2;
+    color:white;
+    text-shadow:2px 2px 4px black;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.photographer {
+    position: absolute;
+    width: max-content;
+    left: 1%;
+    top: 95%;
+    z-index: 2;
+    color: ghostwhite;
+    font-size: 0.5rem;
+    background-blend-mode: exclusion;
+    /* background-color:rgba( rgb(58, 11, 11), rgb(16, 17, 16), rgb(14, 14, 37),.5); */
+    border-radius: 10px;
+    /* opacity: 0.3; */
+    /* background-blend-mode: hard-light; */
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    font-size: .8rem;
+    padding: 0.2rem;
+    opacity: .7;
+}
+
+#weather {
+    position: absolute;
+    width: max-content;
+    top: 2%;
+    right: 2%;
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.weather-text {
+    z-index: 2;
+}
+
+#quote-div {
+    position: absolute;
+    top: 80vh;
+    justify-content: center;
+    margin:0 auto;
+    width: 100%;
+    max-height: 20vh;
+    /* padding:10px; */
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    z-index: 2;
+    /* opacity: 0.4; */
+}
+
+#time{
+    position: absolute;
+    top: 30vh;
+    justify-content: center;
+    margin:0 auto;
+    padding:0;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    height:min-content;
+
+}
+.time{
+    font-size: 5rem;
+    margin:0;
+
+}
+#greeting{
+    font-size:1.7rem;
+    margin:0;
+}
+.quote{
+    text-align: center;
+    padding: 0 1rem;
+    margin:.5rem auto;
+    font-size:1em;
+}
